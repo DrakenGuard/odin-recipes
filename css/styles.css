@@ -1,0 +1,77 @@
+@import url(css-presets.css);
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.add-css {
+    font-size: var(--size-3);
+    width: fit-content;
+    margin: auto auto;
+}
+
+.card {
+    width: 600px;
+    margin: var(--size-4) auto;
+    background-color: rgba(240, 248, 255, 0.9);
+    text-align: center;
+}
+
+.title {
+    padding: var(--size-1);
+}
+
+.recipe-list {
+    width: 200px;
+    margin: var(--size-3) auto;
+    list-style-type: none;
+    padding: 2px;
+}
+
+.recipe-list li {
+    margin: var(--size-1);
+}
+
+img.showcase {
+    width: 150px;
+    height: 150px;
+}
+
+.recipe-title {
+    width: fit-content;
+    margin: var(--size-4) auto;
+}
+
+.recipe-img {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+.recipe-description {
+    background-color: rgba(255, 248, 240, 0.85);
+    padding: var(--size-1);
+    margin: var(--size-1);
+}
+
+.recipe-ingredients {
+    background-color: rgba(240, 255, 244, 0.85);
+    padding: var(--size-1);
+    margin: var(--size-1);
+}
+
+.recipe-steps {
+    background-color: rgba(240, 248, 255, 0.85);
+    padding: var(--size-1);
+    margin: var(--size-1);
+}
+
+.css-added {
+    background-color: lightgray;
+}

@@ -1,0 +1,16 @@
+:root {
+    /* Sizes */
+    --size-1: 12px;
+    --size-2: 16px;
+    --size-3: 24px;
+    --size-4: 32px;
+    --size-5: 48px;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
